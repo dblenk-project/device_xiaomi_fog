@@ -202,7 +202,7 @@ LOCAL_C_INCLUDES += \
 ifneq ($(BOARD_OPENSOURCE_DIR), )
   LOCAL_C_INCLUDES += $(BOARD_OPENSOURCE_DIR)/core-utils/fwk-detect
 else
-  LOCAL_C_INCLUDES += vendor/qcom/opensource/core-utils/fwk-detect
+  LOCAL_C_INCLUDES += hardware/qcom-caf/common/fwk-detect
 endif # BOARD_OPENSOURCE_DIR
 
 LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
