@@ -169,6 +169,7 @@ dalvik.vm.image-dex2oat-threads=8
 
 # Display
 debug.sf.disable_client_composition_cache=1
+debug.sf.enable_egl_image_tracker=1
 debug.sf.high_fps_early_gl_phase_offset_ns=-5000000
 debug.sf.high_fps_early_phase_offset_ns=-5000000
 debug.sf.high_fps_late_app_phase_offset_ns=1000000
