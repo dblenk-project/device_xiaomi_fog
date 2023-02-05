@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.overlay.fog">
+
+    <application android:hasCode="false" />
+    <overlay
+        android:isStatic="true"
+        android:priority="1"
+        android:targetPackage="android" />
+</manifest>
