@@ -805,7 +805,7 @@ system_ext/lib64/vendor.qti.ims.rcsconfig@2.0.so|662bccc5d4b40a79a47928c8957bfdf
 system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so|bdb530a365806b33effe0fea03f181decb20c2ae
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|ace5e02b6cd79b43a07d84e2d18d6818821a3c48
 system_ext/lib64/vendor.qti.imsrtpservice@3.1.so|e64aa8a21a8db69d2e2ea14929bb20ced99c119d
--system_ext/priv-app/ims/ims.apk|f6a0124630325675c2c407b91ae7a58811784dad
+-system_ext/priv-app/ims/ims.apk|1ac29f0fd5f3502ff2ae157151ae4b1ac592a11f
 vendor/bin/ims_rtp_daemon|14000c4e544bafe7cd7ce983df080fd500b3bd28
 vendor/bin/imsdatadaemon|0794aab4b2014cde24023819cbeab80c30cba8df
 vendor/bin/imsqmidaemon|bee5c97da4e2682f045eb9c2c7d68a3f6c3e3877
