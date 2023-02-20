@@ -377,12 +377,14 @@ PRODUCT_PACKAGES += \
     init.mdm.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
+    init.qcom.usb.sh \
     init.qcom.sh \
     init.qti.dcvs.sh
 
 PRODUCT_PACKAGES += \
     fstab.qcom \
     fstab.qcom_ramdisk \
+    init.qcom.usb.rc \
     init.qcom.rc \
     init.recovery.qcom.rc \
     init.target.rc \
@@ -447,11 +449,7 @@ PRODUCT_COPY_FILES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.3-service-fog
-
-PRODUCT_PACKAGES += \
-    init.qcom.usb.rc \
-    init.qcom.usb.sh
+    android.hardware.usb@1.2.vendor:64
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.usb.accessory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.usb.accessory.xml \
