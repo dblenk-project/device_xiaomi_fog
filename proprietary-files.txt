@@ -778,7 +778,6 @@ system_ext/lib64/libimscamera_jni.so|f6b7647cfe080baeed006c932b495ff94b5685a7
 system_ext/lib64/libimsmedia_jni.so|b47ffbfc2f22576dac78c5669cd0fa921025bb3a
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|ace5e02b6cd79b43a07d84e2d18d6818821a3c48
 system_ext/lib64/vendor.qti.imsrtpservice@3.1.so|e64aa8a21a8db69d2e2ea14929bb20ced99c119d
--system_ext/priv-app/ims/ims.apk|f6a0124630325675c2c407b91ae7a58811784dad
 vendor/bin/ims_rtp_daemon|14000c4e544bafe7cd7ce983df080fd500b3bd28
 vendor/bin/imsdatadaemon|0794aab4b2014cde24023819cbeab80c30cba8df
 vendor/bin/imsqmidaemon|bee5c97da4e2682f045eb9c2c7d68a3f6c3e3877
@@ -828,6 +827,9 @@ vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so|8c13f0181215674d899c3891c6ab2e06313
 vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so|833fb99024ff3e3f8c5680dae5e6fe50783fe8ab
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|33a16269b7c3d25ccb81cee1995cff2cd1c968ed
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so|6d4b854e7ba91ef98398568c365a131cf4c01c93
+
+# IMS - from renoir
+-system_ext/priv-app/ims/ims.apk|f0d834acbc77e7830459e0246f5073e1b9ba8657
 
 # IPA firmware - from MIUI
 vendor/etc/init/ipa_fws.rc|f1826b81077f51470c97781823f109f12361ac8b
