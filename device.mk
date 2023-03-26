@@ -336,7 +336,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Perf
-PRODUCT_BOOT_JARS += \
+#PRODUCT_BOOT_JARS += \
     QPerformance \
     UxPerformance
 
