@@ -135,6 +135,10 @@ on boot
     chown system system /dev/spidev0.1
     chmod 0660 /dev/spidev0.1
 
+    # Battery health
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chmod 0666 /sys/class/power_supply/battery/input_suspend
+
    # USB controller configuration
     setprop vendor.usb.rndis.func.name "gsi"
     setprop vendor.usb.rmnet.func.name "gsi"
@@ -238,11 +242,11 @@ service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
     group nfc
     disabled
 
-on init && property:ro.boot.product.hardware.sku=nfc
+on boot && property:ro.boot.hwname=rain
     start vendor.nfc_hal_service
     start vendor.secure_element_hal_service 
 
-on post-fs-data && property:ro.boot.product.hardware.sku=nfc
+on post-fs-data
     mkdir /data/vendor 0777 nfc nfc
     mkdir /data/vendor/nfc 0777 nfc nfc
     mkdir /data/vendor/nfc/param 0777 nfc nfc
