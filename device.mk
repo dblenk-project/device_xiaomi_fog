@@ -332,6 +332,7 @@ PRODUCT_PACKAGES += \
     SettingsProviderFog \
     SystemUIFog \
     TelephonyFog \
+    TetheringFog \
     WifiFog
 
 # Partitions
