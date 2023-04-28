@@ -298,7 +298,6 @@ persist.vendor.sensors.support_direct_channel=false
 vendor.sys.thermal.data.path=/data/vendor/thermal/
 
 # USB
-persist.vendor.usb.config=diag,serial_cdev,rmnet,adb
 sys.usb.mtp.batchcancel=1
 vendor.usb.diag.func.name=diag
 vendor.usb.use_ffs_mtp=1
