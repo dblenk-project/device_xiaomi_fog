@@ -131,15 +131,11 @@ on boot
     chown system system /proc/tp_gesture
     chmod 0644 /proc/tp_gesture
 
-    # IR device
-    chown system system /dev/spidev0.1
-    chmod 0660 /dev/spidev0.1
-
     # Battery health
     chown system system /sys/class/power_supply/battery/input_suspend
     chmod 0666 /sys/class/power_supply/battery/input_suspend
 
-   # USB controller configuration
+    # USB controller configuration
     setprop vendor.usb.rndis.func.name "gsi"
     setprop vendor.usb.rmnet.func.name "gsi"
     setprop vendor.usb.rmnet.inst.name "rmnet"
@@ -148,12 +144,6 @@ on boot
     setprop vendor.usb.controller 4e00000.dwc3
     start mi_thermald
     start vendor.sensors
-
-    # Enable ZRAM on boot_complete
-on property:sys.boot_completed=1
-    rm /data/unencrypted/zram_swap
-    swapon_all /vendor/etc/fstab.qcom
-    write /proc/sys/vm/swappiness 100
 
     # Load WLAN driver
     insmod /vendor/lib/modules/qca_cld3_wlan.ko
@@ -205,15 +195,6 @@ service vendor.per_proxy /vendor/bin/pm-proxy
     group system
     disabled
 
-service vendor.mdm_helper /vendor/bin/mdm_helper
-    class core
-    group system wakelock
-    disabled
-
-service vendor.mdm_launcher /vendor/bin/sh /vendor/bin/init.mdm.sh
-    class core
-    oneshot
-
 on property:init.svc.vendor.per_mgr=running
     start vendor.per_proxy
 
@@ -252,3 +233,9 @@ on post-fs-data
     mkdir /data/vendor/nfc/param 0777 nfc nfc
     chmod 0660 /dev/pn553
     chown nfc nfc /dev/pn553
+
+# Enable ZRAM on boot_complete
+on property:sys.boot_completed=1
+    rm /data/unencrypted/zram_swap
+    swapon_all /vendor/etc/fstab.qcom
+    write /proc/sys/vm/swappiness 100

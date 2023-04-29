@@ -127,7 +127,7 @@ Only the three quirks included above are recognized at this point:
     </Settings>
     <Encoders>
         <!-- Video Hardware  -->
-        <!-- <MediaCodec name="OMX.qcom.video.encoder.avc" type="video/avc" >
+        <MediaCodec name="OMX.qcom.video.encoder.avc" type="video/avc" >
             <Quirk name="requires-allocate-on-input-ports" />
             <Quirk name="requires-allocate-on-output-ports" />
             <Quirk name="requires-loaded-to-idle-after-allocation" />
@@ -140,7 +140,7 @@ Only the three quirks included above are recognized at this point:
             <Limit name="concurrent-instances" max="16" />
             <Limit name="performance-point-1920x1080" value="60" />
             <Limit name="performance-point-1280x720" value="120" />
-        </MediaCodec> -->
+        </MediaCodec>
         <MediaCodec name="OMX.qcom.video.encoder.hevc" type="video/hevc" >
             <Quirk name="requires-allocate-on-input-ports" />
             <Quirk name="requires-allocate-on-output-ports" />
@@ -299,9 +299,9 @@ Only the three quirks included above are recognized at this point:
             <Limit name="size" min="2x2" max="1280x720" />
             <Limit name="alignment" value="2x2" />
             <Limit name="block-size" value="8x8" />
-            <Limit name="block-count" range="1-3600" />
-            <Limit name="blocks-per-second" range="1-108000" />
-            <Limit name="bitrate" range="1-2000000" />
+            <Limit name="block-count" range="1-14400" />
+            <Limit name="blocks-per-second" range="1-432000" />
+            <Limit name="bitrate" range="1-3000000" />
        </MediaCodec>
        <MediaCodec name="c2.android.avc.decoder" type="video/avc" update="true">
             <!-- profiles and levels:  ProfileHigh : Level51 -->

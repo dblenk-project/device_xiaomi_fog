@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from miui_FOGGlobal_V13.0.5.0.SGEMIXM_b24fadf4ba_12.0
+# All unpinned blobs below are extracted from miui_FOGGlobal_V13.0.6.0.SGEMIXM_2fb738a0f4_12.0
 
 # ACDB
 vendor/etc/acdbdata/IDP/bengal-scubaidp-snd-card/IDP_Scuba_Bluetooth_cal.acdb
@@ -424,9 +424,6 @@ vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmmcamera_lscv35.so
 vendor/lib64/libmmcamera_mfnr.so
 vendor/lib64/libmmcamera_mfnr_t4.so
-
-# Consumer IR
-vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.bengal.so
 
 # CDSP
 vendor/bin/cdsprpcd
@@ -901,7 +898,6 @@ system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
 system_ext/lib64/libmmosal.so
 system_ext/lib64/libmmparser_lite.so
-vendor/etc/seccomp_policy/mediacodec.policy
 vendor/lib/libmmosal.so
 vendor/lib64/libmmosal.so
 
@@ -1485,11 +1481,6 @@ vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
-
-# USB
-vendor/bin/hw/android.hardware.usb@1.2-service-qti
-vendor/etc/init/android.hardware.usb@1.2-service-qti.rc
--vendor/etc/vintf/manifest/android.hardware.usb@1.2-service.xml
 
 # VPP
 vendor/lib/vendor.qti.hardware.vpp@1.1.so
