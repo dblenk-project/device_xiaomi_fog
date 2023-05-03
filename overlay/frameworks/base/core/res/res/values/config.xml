@@ -726,4 +726,7 @@
     <string name="config_SmartChargingSuspendValue" translatable="false">1</string>
     <string name="config_SmartChargingResumeValue" translatable="false">0</string>
 
+    <!-- Boost Framework -->
+    <bool name="config_supportsBoostFramework">true</bool>
+
 </resources>
