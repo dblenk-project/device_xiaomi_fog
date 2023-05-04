@@ -1017,9 +1017,9 @@ vendor/etc/lm/GameOptimizationFeature.xml|919465873754a60d5ee6ff45aa23dfc65e9b55
 -framework/UxPerformance.jar|14540e6c926a80f09f4ae972633cb740d5d9a75f
 etc/permissions/com.qualcomm.qti.Performance.xml|7976f2fd46b8d07814310cc957a70f829bdd6932
 etc/permissions/com.qualcomm.qti.UxPerformance.xml|d92749d80c5d956db8251b08ea6388d3f107a32c
-system_ext/app/PerformanceMode/PerformanceMode.apk|584042f8c751f49b2804dbdfeb35a53e491e2ace
-system_ext/app/PowerSaveMode/PowerSaveMode.apk|6a3d78292ed289e9178cf050ac3849a866b1097b
-system_ext/app/workloadclassifier/workloadclassifier.apk|2acc6d73fe74ac37ed52e2b17447bf35c67abfc0
+-system_ext/app/PerformanceMode/PerformanceMode.apk|584042f8c751f49b2804dbdfeb35a53e491e2ace
+-system_ext/app/PowerSaveMode/PowerSaveMode.apk|6a3d78292ed289e9178cf050ac3849a866b1097b
+-system_ext/app/workloadclassifier/workloadclassifier.apk|2acc6d73fe74ac37ed52e2b17447bf35c67abfc0
 system_ext/bin/perfservice|f3207f6254bfe4bd1e15b13578d1007efe1c442c
 system_ext/bin/qspmsvc|711bbb8645bfdcde5327b5e84d0fc8d011d85695
 system_ext/etc/init/perfservice.rc|7d4732437d2204e06ea09db85f169fef693086e8
@@ -1074,7 +1074,7 @@ system_ext/lib64/vendor.qti.hardware.perf@2.3.so|10ccca2c86b7d9fb4eac73d958836de
 system_ext/lib64/vendor.qti.qspmhal@1.0.so|89eeb4c36bbaad2091a07aac500c92359279d5c9
 
 # Perf vendor - from LA.UM.9.14.r1-21000-LAHAINA.QSSI13.0
-vendor/app/pasrservice/pasrservice.apk|38dec995caf51b42550fded391b31f62f974d621
+-vendor/app/pasrservice/pasrservice.apk|38dec995caf51b42550fded391b31f62f974d621
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|52e0edaa69bed29d70e1fa2d3f6923ddb8d4047d
 vendor/bin/hw/vendor.qti.hardware.perf@2.2-service|d7dc9aa34d48ed62f469a89bb84554cbc72f44aa
 vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service|43271910678884fc8ee9a01e27595929187411e0
