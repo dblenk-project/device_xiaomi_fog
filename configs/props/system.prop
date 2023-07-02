@@ -107,6 +107,9 @@ ro.telephony.default_network=33,33
 ro.vendor.radio.features_common=3
 telephony.lteOnCdmaDevice=1
 
+# SdcardFS
+persist.sys.fuse.passthrough.enable=true
+
 # Time-services
 persist.timed.enable=true
 
