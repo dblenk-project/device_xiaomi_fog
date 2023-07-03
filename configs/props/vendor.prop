@@ -44,6 +44,7 @@ ro.vendor.audio.spk.clean=true
 ro.vendor.audio.surround.support=false
 ro.vendor.audio.vocal.support=false
 ro.vendor.audio.voice.change.support=true
+ro.vendor.audio.voice.change.version=2
 vendor.audio.adm.buffering.ms=6
 vendor.audio.dolby.ds2.enabled=false
 vendor.audio.dolby.ds2.hardbypass=false
