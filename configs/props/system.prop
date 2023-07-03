@@ -18,7 +18,6 @@ debug.sf.enable_hwc_vds=1
 debug.sf.auto_latch_unsignaled=true
 
 # CNE
-persist.cne.feature=1
 persist.vendor.cne.feature=1
 
 # Dalvik
@@ -26,10 +25,6 @@ dalvik.vm.dex2oat64.enabled=true
 
 # Dex2oat
 ro.sys.fw.dex2oat_thread_count=8
-
-# DPM
-persist.dpm.feature=1
-persist.vendor.dpm.idletimer.mode=default
 
 # Fingerprint
 sys.fp.miui.token=0
@@ -39,17 +34,6 @@ ro.vendor.qti.va_aosp.support=1
 
 # Graphics
 persist.demo.hdmirotationlock=false
-
-# IMS
-persist.rcs.supported=1
-persist.vendor.ims.no_stapa=1
-persist.vendor.rcs.singlereg.feature=1
-
-# IMS Debugging
-persist.vendor.ims.disableADBLogs=1
-persist.vendor.ims.disableDebugLogs=1
-persist.vendor.ims.disableIMSLogs=1
-persist.vendor.ims.disableQXDMLogs=1
 
 # Iorapd
 ro.iorapd.enable=false
@@ -100,11 +84,8 @@ ro.cp_system_other_odex=1
 
 # RIL
 DEVICE_PROVISIONED=1
-net.tethering.noprovisioning=true
-persist.sys.fflag.override.settings_network_and_internet_v2=true
 ril.subscription.types=NV,RUIM
 ro.telephony.default_network=33,33
-ro.vendor.radio.features_common=3
 telephony.lteOnCdmaDevice=1
 
 # SdcardFS

@@ -6,5 +6,5 @@ ro.surface_flinger.supports_background_blur=1
 persist.vendor.dpm.feature=11
 
 # Telephony
-ro.telephony.sim_slots.count=2
+ro.telephony.sim_slots.count=1
 telephony.active_modems.max_count=2
