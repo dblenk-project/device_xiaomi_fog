@@ -769,6 +769,12 @@ vendor/firmware/a702_zap.mdt|9d91325c434167f6deb2ffcfbd7b596f165019e4
 vendor/lib/hw/vulkan.adreno.so|bf9536e9b2b8174cedd28eb1b2f11095670d9cfe
 vendor/lib64/hw/vulkan.adreno.so|9b2eaf02a455cc9da4080ca7f123f0102dea8a7a
 
+# HotwordEnrollment - from MIUI
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk|5b155ae44487e96b86117484323b5a05a2653eda
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk|7ac4345e772fe62706f8f6ef9c6d6fba503ed9c1
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|99cfd80965c170f4885a7dd62c0eaad1a0c7840f
+system_ext/framework/com.android.hotwordenrollment.common.util.jar|a418f5697951468fb93788b6e92d2912e7ae7149
+
 # IMS - from MIUI
 system_ext/lib64/lib-imsvideocodec.so|3fa5444a061dd5af35f924744dc6a73d535cedf6
 system_ext/lib64/lib-imsvt.so|1ea25552e520f110e92f6750d0f371d7f2ed69c9
