@@ -141,6 +141,16 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
+        <name>com.qualcomm.qti.uceservice</name>
+        <version>2.0-1</version>
+        <version>2.2</version>
+        <version>2.3</version>
+        <interface>
+            <name>IUceService</name>
+            <instance>com.qualcomm.qti.uceservice</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
         <name>com.qualcomm.qti.wifidisplayhal</name>
         <version>1.0</version>
         <interface>
