@@ -32,6 +32,11 @@ sys.fp.miui.token=0
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
 
+# IMS
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+
 # Graphics
 persist.demo.hdmirotationlock=false
 
